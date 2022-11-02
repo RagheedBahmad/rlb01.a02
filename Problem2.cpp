@@ -77,7 +77,9 @@ T Stack<T>::size() {
     return array.size();
 }
 
-// Tested pop and push on two stacks and then merged them into one and tested out a pop and a top
+// Tested pop and push on two stacks
+// integrated Operator Overloading for Problem 3
+// Tested adding the two stacks and popping, then peeking the top
 int main() {
     Stack<int> integer_stack;
     Stack<int> integer_stack2;
